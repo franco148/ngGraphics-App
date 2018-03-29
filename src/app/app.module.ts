@@ -11,12 +11,14 @@ import { ChartsModule } from 'ng2-charts';
 // My Components
 import { AppComponent } from './app.component';
 import { LineComponent } from './components/line/line.component';
+import { BarComponent } from './components/bar/bar.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    LineComponent
+    LineComponent,
+    BarComponent
   ],
   imports: [
     BrowserModule,
