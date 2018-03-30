@@ -16,6 +16,7 @@ import { DoughnutComponent } from './components/doughnut/doughnut.component';
 import { RadarComponent } from './components/radar/radar.component';
 import { PieComponent } from './components/pie/pie.component';
 import { PolarAreaComponent } from './components/polar-area/polar-area.component';
+import { DynamicChartComponent } from './components/dynamic-chart/dynamic-chart.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { PolarAreaComponent } from './components/polar-area/polar-area.component
     DoughnutComponent,
     RadarComponent,
     PieComponent,
-    PolarAreaComponent
+    PolarAreaComponent,
+    DynamicChartComponent
   ],
   imports: [
     BrowserModule,
