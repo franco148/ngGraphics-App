@@ -15,6 +15,7 @@ import { BarComponent } from './components/bar/bar.component';
 import { DoughnutComponent } from './components/doughnut/doughnut.component';
 import { RadarComponent } from './components/radar/radar.component';
 import { PieComponent } from './components/pie/pie.component';
+import { PolarAreaComponent } from './components/polar-area/polar-area.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { PieComponent } from './components/pie/pie.component';
     BarComponent,
     DoughnutComponent,
     RadarComponent,
-    PieComponent
+    PieComponent,
+    PolarAreaComponent
   ],
   imports: [
     BrowserModule,
