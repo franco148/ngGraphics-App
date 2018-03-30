@@ -14,6 +14,7 @@ import { LineComponent } from './components/line/line.component';
 import { BarComponent } from './components/bar/bar.component';
 import { DoughnutComponent } from './components/doughnut/doughnut.component';
 import { RadarComponent } from './components/radar/radar.component';
+import { PieComponent } from './components/pie/pie.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { RadarComponent } from './components/radar/radar.component';
     LineComponent,
     BarComponent,
     DoughnutComponent,
-    RadarComponent
+    RadarComponent,
+    PieComponent
   ],
   imports: [
     BrowserModule,
